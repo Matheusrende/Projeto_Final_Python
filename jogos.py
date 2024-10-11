@@ -15,6 +15,8 @@ def main():
             continue
         request = input('Você quer continuar jogando? y/n? ').upper()
         if request in ['NO','N']:
+        request = input('Você quer continuar jogando? S/N? ').upper()
+        if request in ['SIM','N']:
             break
 
 def getGame():
@@ -46,3 +48,27 @@ def Pedrapapel():
         print('Você ganhou')
     else:
         print('Você perdeu')
+
+def MagicBall():
+    resposta = random.randint(1,9)
+    if resposta == 1:
+        print('It is certain')
+    if resposta == 2:
+        print('It is decidedly so')
+    if resposta == 3:
+        print('Without a doubt')
+    if resposta == 4:
+        print('Yes, definitely')
+    if resposta == 5:
+        print('Don’t count on it')
+    if resposta == 6:
+        print('My reply is no') 
+    if resposta == 7:
+        print('Very doubtful')
+    if resposta == 8:
+        print('Ask again later')
+    if resposta == 9:
+        print('Better not tell you now')
+    
+        
+    
