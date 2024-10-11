@@ -13,10 +13,9 @@ def main():
             Pedrapapel()
         else:
             continue
-        request = input('Você quer continuar jogando? y/n? ').upper()
-        if request in ['NO','N']:
+        
         request = input('Você quer continuar jogando? S/N? ').upper()
-        if request in ['SIM','N']:
+        if request in ['NAO','N']:
             break
 
 def getGame():
