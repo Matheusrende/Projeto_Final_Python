@@ -49,25 +49,18 @@ def Pedrapapel():
         print('Você perdeu')
 
 def MagicBall():
-    resposta = random.randint(1,9)
-    if resposta == 1:
-        print('It is certain')
-    if resposta == 2:
-        print('It is decidedly so')
-    if resposta == 3:
-        print('Without a doubt')
-    if resposta == 4:
-        print('Yes, definitely')
-    if resposta == 5:
-        print('Don’t count on it')
-    if resposta == 6:
-        print('My reply is no') 
-    if resposta == 7:
-        print('Very doubtful')
-    if resposta == 8:
-        print('Ask again later')
-    if resposta == 9:
-        print('Better not tell you now')
-    
+    resposta = random.randint(1, 9)
+    respostas = {
+        1: 'It is certain',
+        2: 'It is decidedly so',
+        3: 'Without a doubt',
+        4: 'Yes, definitely',
+        5: 'Don’t count on it',
+        6: 'My reply is no',
+        7: 'Very doubtful',
+        8: 'Ask again later',
+        9: 'Better not tell you now'
+    }
+    print(respostas[resposta])
         
     
