@@ -2,11 +2,13 @@ import random
 import art 
 
 def main():
+    
+    
     while True:
         print(art.text2art('GAMES!'))
         game = getGame()
         if game == 1 :
-            Velha()
+            BlackJack()
         elif game == 2 :
             MagicBall()
         elif game == 3 :
@@ -63,4 +65,5 @@ def MagicBall():
     }
     print(respostas[resposta])
         
+def BlackJack():
     
